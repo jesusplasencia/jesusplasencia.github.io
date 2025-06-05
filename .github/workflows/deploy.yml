@@ -11,3 +11,4 @@ jobs:
     steps:
       - name: Print variable
         run:  echo "${{ secret.TOKEN_SECRET }}"
+        run:  echo "Goodbye Stranger"
