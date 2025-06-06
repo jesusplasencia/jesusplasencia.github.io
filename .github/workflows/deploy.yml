@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print secret variable to test
-        run:  echo "${{ secrets.TOKEN_SECRET }}"
-      
       - name: Set up Checkout
         uses: actions/checkout@v4
 
