@@ -31,5 +31,5 @@ jobs:
     needs   : build
 
     steps:
-      - name: Deploy
-        run : echo "Deploy..."
+      - name: Build
+        run : npm run build
